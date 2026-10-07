@@ -15,7 +15,7 @@ test('supprime une tâche', () => {
 
 test('compte les tâches', () => {
 	const liste = ajouterTache([], 'Lire')
-	expect(compterTaches(liste)).toBe(9)
+	expect(compterTaches(liste)).toBe(1)
 })
 
 
